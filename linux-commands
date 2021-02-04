@@ -1,0 +1,13 @@
+$ cd ~
+
+#Composer Latest
+$ sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+#Composer V1
+$ sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer --version=1.10.20
+
+#Composer V2
+$ sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer --version=2.0.9
+
+then you can run 
+$ sudo composer install
